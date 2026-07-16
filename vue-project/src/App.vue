@@ -1251,7 +1251,7 @@ const option: EChartsOption = {
     timeline: {
       axisType: 'category',
       autoPlay: false,
-      top: 76,
+      top: 190,
       left: 44,
       right: 44,
       currentIndex: 0,
