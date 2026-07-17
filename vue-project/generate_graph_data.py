@@ -4,7 +4,7 @@ import sys
 import zipfile
 import xml.etree.ElementTree as ET
 
-DEFAULT_EXCEL = str(Path(__file__).resolve().parents[1] / "data" / "副本心理学知识图谱项目数据底表_v2_full.xltx")
+DEFAULT_EXCEL = str(Path(__file__).resolve().parents[1] / "data" / "副本心理学知识图谱项目数据底表_v2_full.xlsx")
 OUTPUT = Path("src/data/graph-data.ts")
 NS = {
     "a": "http://schemas.openxmlformats.org/spreadsheetml/2006/main",
